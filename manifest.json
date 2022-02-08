@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "mbed tabs",
+    "description": "Adds tabs to mbed simulator page to manage files easier",
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+          "matches": ["*://*/*"],
+          "js": ["ace.js","mode-c_cpp.js","content_script.js"],
+          "css":["style.css"],
+          "all_frames": true,
+          "run_at": "document_end"
+        }
+    ],
+    "permissions": ["storage"],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "mbedtabs@example.com"
+      }
+    }
+    
+}

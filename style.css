@@ -1,0 +1,130 @@
+:root{
+    --base-color: #333e48;
+    --base-color-light: #4f5b66;
+}
+#newfile{
+    font-size: 1.2em;
+    background-color: var(--base-color-light);
+    color:white;
+    margin: 0.25em;
+    border:none;
+    border-radius: 0.2em;
+    text-align: left;
+}
+
+#newfile:hover{
+    background-color: rgb(38, 121, 126);
+}
+
+#newfile:active{
+    background-color: rgb(7, 72, 75);
+}
+
+.top-tab{
+    color:white;
+    background-color: var(--base-color-light);
+    margin-left: 0.25em;
+    border:none;
+    border-radius: 0.2em;
+    height:30px;
+    width: 150px;
+    display:flex;
+    align-items: center;
+}
+.tab-title{
+    color:white;
+    height:20px;
+    width:120px;
+    background-color: transparent;
+    text-align: center;
+    resize:none;
+    border:none;
+}
+
+.create-tab{
+    color:white;
+    background-color: var(--base-color-light);
+    font-size: 1.2em;
+    border:none;
+}
+
+.tab-title:focus{
+    color:white;
+    outline:none;
+}
+
+.delete-tab{
+    font-size: 1.2em;
+    background-color: rgb(235, 143, 107);
+    color:white;
+    margin: 0.25em;
+    border:none;
+    border-radius: 0.2em;
+    text-align: left;
+}
+
+.delete-tab:hover{
+    background-color: rgb(168, 105, 80);
+}
+
+.delete-tab:active{
+    background-color: rgb(71, 42, 30);
+}
+
+.main-container{
+    width:100%;
+    height:40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--base-color);
+}
+
+.selected-tab{
+    background:rgb(59, 103, 124);
+    color:white;
+}
+
+.select-tab,#theme-select, #font-size-select{
+    background-color: var(--base-color-light);
+    color:white;
+    font-size: 1.2em;
+    width:100px;
+    margin-left:0.5em;
+    border-radius: 0.2em;
+}
+
+option{
+    background-color: var(--base-color-light);
+}
+
+.save-button{
+    background-color: var(--base-color-light);
+    color:white;
+    padding:0.2em;
+    border:none;
+    margin-left: 0.5em;
+    border-radius: 0.2em;
+}
+
+.save-button:hover{
+    background-color: rgb(59, 103, 124);
+}
+
+.save-button:active{
+    background-color: rgb(33, 59, 71);
+}
+
+.compile{
+    font-size: 1.2em;
+    background-color: var(--base-color-light);
+    margin: 0.25em;
+    border:none;
+    border-radius: 0.2em;
+    text-align: left;
+}
+
+.save-img{
+    width:20px;
+    height:20px;
+}
